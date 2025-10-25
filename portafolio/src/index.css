@@ -1,2 +1,18 @@
 @import "tailwindcss";
 @import "tailwindcss/utilities";
+
+
+/* Extender el tema */
+@theme {
+  --color-fondo: #EFEAE4; /* Color de fondo claro*/
+  --color-cafeoscuro: #3D362D; /* Color de texto oscuro */
+  --color-cafeclaro: #594F43; /*Color cafe menos oscuro*/
+  --color-cafebeige: #A68A64; /* Color cafe beige */
+
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+body {
+  @apply font-serif bg-fondo ;
+}

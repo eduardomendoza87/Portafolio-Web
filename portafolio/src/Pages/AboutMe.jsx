@@ -1,6 +1,6 @@
 import React from "react";
 
-import FotoPerfil from "../assets/Foto_Perfil.jpg"
+import FotoPerfil from "../assets/Foto_Perfil.webp"
 
 import { FaReact, FaHtml5, FaCss3Alt, FaGitAlt } from 'react-icons/fa';
 import { BiLogoTailwindCss, BiLogoJavascript } from 'react-icons/bi';

@@ -1,7 +1,7 @@
 import React from "react";
 import ImageGallery from "react-image-gallery";
 import { Link } from "react-router-dom";
-import fotoPerfil from "../assets/Foto_Perfil.jpg"
+import fotoPerfil from "../assets/Foto_Perfil.webp"
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
         </h1>
 
         {/* Subtítulo */}
-        <p className="text-lg font-sans text-secondary mb-8">
+        <p className="text-lg font-sans text-cafeclaro mb-8">
           Especializado en crear interfaces intuitivas y de alto rendimiento con
           React, Tailwind y creación de wireframes y prototipos en Figma.
         </p>

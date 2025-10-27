@@ -2,12 +2,22 @@
 import React from 'react';
 
 // Logos de Proyecto
-import Logo_SmartCharge from "../assets/Logo_SmartCharge.jpg";
-import Logo_EduTec from "../assets/Logo_EduTec.png";
-import Logo_SazonAzteca from "../assets/Logo_SazonAzteca.png";
+import Logo_SmartCharge from "../assets/Logo_SmartCharge.webp";
+import Logo_EduTec from "../assets/Logo_EduTec.webp";
+import Logo_SazonAzteca from "../assets/Logo_SazonAzteca.webp";
 
 //Imagenes proyecto smartcharge
 import homeSmartCharge from "../assets/Home_SmartCharge.png"
+
+
+//Imagenes del proyecto EduTec
+import SeccionHome from "../assets/EduTec/Seccion_Home.webp";
+import SeccionSobremi from "../assets/EduTec/Seccion_Sobre_mi_1.webp";
+import sobremi1 from "../assets/EduTec/Seccion_Sobre_mi_1.1.webp";
+import sobremi2 from "../assets/EduTec/Seccion_Sobre_mi_1.2.webp"
+import SeccionProyecto from "../assets/EduTec/Seccion_Proyectos.webp"
+import SeccionVerProyecto from "../assets/EduTec/Seccion_Ver_Proyecto.webp"
+import SeccionContacto from "../assets/EduTec/Seccion_Contacto.webp";
 
 // ARRAY DE PROYECTOS 
 
@@ -81,6 +91,15 @@ export const estudioProyecto = [
     ],
     demoUrl: "#",
     githubUrl: "https://github.com/eduardomendoza87/portafolio-web-react",
-    carouselImages: [],
+    carouselImages: [
+      {src: SeccionHome,alt:"Seccion de inicio"},
+
+      {src:SeccionSobremi, alt: "Seccion sobre mi"},
+      {src:sobremi1},
+      {src:sobremi2},
+      {src:SeccionProyecto,alt: "Seccion de mis proyectos"},
+      {src:SeccionVerProyecto, alt: "Seccion para ver mi proyecto"},
+      {src: SeccionContacto, alt: "Seccion para contactarme"}
+  ],
   },
 ];

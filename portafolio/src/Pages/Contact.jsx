@@ -99,7 +99,7 @@ const Contact = () => {
             <FaGithub />
           </a>
           <a
-            href="TU_LINK_DE_LINKEDIN"
+            href="https://www.linkedin.com/in/eduardo-mendoza-43aa1427a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BH0GI3FamQZSonYv%2BZ5sm2g%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-cafeclaro transition-colors"

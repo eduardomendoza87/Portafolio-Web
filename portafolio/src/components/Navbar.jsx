@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo_EduTec from "../assets/Logo_EduTec.png";
+import Logo_EduTec from "../assets/Logo_EduTec.webp";
 
 // Iconos
 import { FaHome, FaBars, FaTimes } from 'react-icons/fa';
